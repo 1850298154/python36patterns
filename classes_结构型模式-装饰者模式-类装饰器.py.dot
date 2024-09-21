@@ -1,0 +1,7 @@
+digraph "classes_结构型模式-装饰者模式-类装饰器.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-装饰者模式-类装饰器.Profiled" [color="black", fontcolor="black", label=<{Profiled|ncalls : int<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"结构型模式-装饰者模式-类装饰器.Spam" [color="black", fontcolor="black", label=<{Spam|<br ALIGN="LEFT"/>|bar(x)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

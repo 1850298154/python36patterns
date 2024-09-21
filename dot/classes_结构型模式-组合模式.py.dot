@@ -1,0 +1,12 @@
+digraph "classes_结构型模式-组合模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-组合模式.Company" [color="black", fontcolor="black", label=<{Company|name<br ALIGN="LEFT"/>name : str<br ALIGN="LEFT"/>|<I>add</I>(company)<br ALIGN="LEFT"/><I>display</I>(depth)<br ALIGN="LEFT"/><I>line_of_duty</I>()<br ALIGN="LEFT"/><I>remove</I>(company)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-组合模式.ConcreteCompany" [color="black", fontcolor="black", label=<{ConcreteCompany|childrenCompany : NoneType<br ALIGN="LEFT"/>childrenCompany : list<br ALIGN="LEFT"/>|add(company)<br ALIGN="LEFT"/>display(depth)<br ALIGN="LEFT"/>line_of_duty()<br ALIGN="LEFT"/>remove(company)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-组合模式.FinanceDepartment" [color="black", fontcolor="black", label=<{FinanceDepartment|<br ALIGN="LEFT"/>|display(depth)<br ALIGN="LEFT"/>line_of_duty()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-组合模式.HRDepartment" [color="black", fontcolor="black", label=<{HRDepartment|<br ALIGN="LEFT"/>|display(depth)<br ALIGN="LEFT"/>line_of_duty()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-组合模式.ConcreteCompany" -> "结构型模式-组合模式.Company" [arrowhead="empty", arrowtail="none"];
+"结构型模式-组合模式.FinanceDepartment" -> "结构型模式-组合模式.Company" [arrowhead="empty", arrowtail="none"];
+"结构型模式-组合模式.HRDepartment" -> "结构型模式-组合模式.Company" [arrowhead="empty", arrowtail="none"];
+}

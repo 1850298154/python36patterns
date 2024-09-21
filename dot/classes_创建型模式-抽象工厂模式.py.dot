@@ -1,0 +1,12 @@
+digraph "classes_创建型模式-抽象工厂模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"创建型模式-抽象工厂模式.Apple5" [color="black", fontcolor="black", label=<{Apple5|phone_name : str<br ALIGN="LEFT"/>|send_msg()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-抽象工厂模式.Apple6" [color="black", fontcolor="black", label=<{Apple6|phone_name : str<br ALIGN="LEFT"/>|send_msg()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-抽象工厂模式.AppleFactory" [color="black", fontcolor="black", label=<{AppleFactory|<br ALIGN="LEFT"/>|get_phone(phone_type)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-抽象工厂模式.FactoryProducer" [color="black", fontcolor="black", label=<{FactoryProducer|<br ALIGN="LEFT"/>|get_factory(factory_name)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-抽象工厂模式.XiaomFactory" [color="black", fontcolor="black", label=<{XiaomFactory|<br ALIGN="LEFT"/>|get_phone(phone_type)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-抽象工厂模式.Xiaomi5" [color="black", fontcolor="black", label=<{Xiaomi5|phone_name : str<br ALIGN="LEFT"/>|send_msg()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-抽象工厂模式.Xiaomi6" [color="black", fontcolor="black", label=<{Xiaomi6|phone_name : str<br ALIGN="LEFT"/>|send_msg()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

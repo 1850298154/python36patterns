@@ -1,0 +1,9 @@
+digraph "classes_行为型模式-登记模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-登记模式.BaseRegisteredClass" [color="black", fontcolor="black", label=<{BaseRegisteredClass|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"行为型模式-登记模式.ClassRegistree" [color="black", fontcolor="black", label=<{ClassRegistree|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"行为型模式-登记模式.RegistryHolder" [color="black", fontcolor="black", label=<{RegistryHolder|REGISTRY : dict<br ALIGN="LEFT"/>|get_registry()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-登记模式.ClassRegistree" -> "行为型模式-登记模式.BaseRegisteredClass" [arrowhead="empty", arrowtail="none"];
+}

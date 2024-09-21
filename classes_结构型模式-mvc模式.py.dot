@@ -1,0 +1,10 @@
+digraph "classes_结构型模式-mvc模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-mvc模式.QuoteModel" [color="black", fontcolor="black", label=<{QuoteModel|<br ALIGN="LEFT"/>|get_quote(n)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-mvc模式.QuoteTerminalController" [color="black", fontcolor="black", label=<{QuoteTerminalController|model<br ALIGN="LEFT"/>view<br ALIGN="LEFT"/>|run()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-mvc模式.QuoteTerminalView" [color="black", fontcolor="black", label=<{QuoteTerminalView|<br ALIGN="LEFT"/>|error(msg)<br ALIGN="LEFT"/>select_quote()<br ALIGN="LEFT"/>show(quote)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-mvc模式.QuoteModel" -> "结构型模式-mvc模式.QuoteTerminalController" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="model", style="solid"];
+"结构型模式-mvc模式.QuoteTerminalView" -> "结构型模式-mvc模式.QuoteTerminalController" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="view", style="solid"];
+}

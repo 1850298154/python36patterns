@@ -1,0 +1,8 @@
+digraph "classes_行为型模式-发布订阅模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-发布订阅模式.Event" [color="black", fontcolor="black", label=<{Event|client_list : dict<br ALIGN="LEFT"/>|listen(key, fn)<br ALIGN="LEFT"/>remove(key, fn)<br ALIGN="LEFT"/>trigger()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-发布订阅模式.SalesOffice" [color="black", fontcolor="black", label=<{SalesOffice|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"行为型模式-发布订阅模式.SalesOffice" -> "行为型模式-发布订阅模式.Event" [arrowhead="empty", arrowtail="none"];
+}

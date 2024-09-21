@@ -1,0 +1,13 @@
+digraph "classes_行为型模式-责任链模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-责任链模式.Event" [color="black", fontcolor="black", label=<{Event|name<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"行为型模式-责任链模式.MainWindow" [color="black", fontcolor="black", label=<{MainWindow|<br ALIGN="LEFT"/>|handle_close(event)<br ALIGN="LEFT"/>handle_default(event)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-责任链模式.MsgText" [color="black", fontcolor="black", label=<{MsgText|<br ALIGN="LEFT"/>|handle_down(event)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-责任链模式.SendDialog" [color="black", fontcolor="black", label=<{SendDialog|<br ALIGN="LEFT"/>|handle_paint(event)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-责任链模式.Widget" [color="black", fontcolor="black", label=<{Widget|parent : NoneType<br ALIGN="LEFT"/>|handle(event)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-责任链模式.MainWindow" -> "行为型模式-责任链模式.Widget" [arrowhead="empty", arrowtail="none"];
+"行为型模式-责任链模式.MsgText" -> "行为型模式-责任链模式.Widget" [arrowhead="empty", arrowtail="none"];
+"行为型模式-责任链模式.SendDialog" -> "行为型模式-责任链模式.Widget" [arrowhead="empty", arrowtail="none"];
+}

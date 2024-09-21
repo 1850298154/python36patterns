@@ -1,0 +1,7 @@
+digraph "classes_创建型模式-原型模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"创建型模式-原型模式.Book" [color="black", fontcolor="black", label=<{Book|authors<br ALIGN="LEFT"/>name<br ALIGN="LEFT"/>price<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"创建型模式-原型模式.Prototype" [color="black", fontcolor="black", label=<{Prototype|objects : dict<br ALIGN="LEFT"/>|clone(identifier)<br ALIGN="LEFT"/>register(identifier, obj)<br ALIGN="LEFT"/>unregister(identifier)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

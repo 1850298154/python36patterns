@@ -1,0 +1,6 @@
+digraph "classes_创建型模式-享元模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"创建型模式-享元模式.A" [color="black", fontcolor="black", label=<{A|identity<br ALIGN="LEFT"/>pool : dict<br ALIGN="LEFT"/>|eat()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

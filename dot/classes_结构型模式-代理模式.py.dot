@@ -1,0 +1,8 @@
+digraph "classes_结构型模式-代理模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-代理模式.Info" [color="black", fontcolor="black", label=<{Info|protected<br ALIGN="LEFT"/>secret : str<br ALIGN="LEFT"/>|add(user)<br ALIGN="LEFT"/>read()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-代理模式.SensitiveInfo" [color="black", fontcolor="black", label=<{SensitiveInfo|users : list<br ALIGN="LEFT"/>|add(user)<br ALIGN="LEFT"/>read()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-代理模式.SensitiveInfo" -> "结构型模式-代理模式.Info" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="protected", style="solid"];
+}

@@ -1,0 +1,6 @@
+digraph "classes_行为型模式-迭代器模式-使用类.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-迭代器模式-使用类.AccountIterator" [color="black", fontcolor="black", label=<{AccountIterator|accounts<br ALIGN="LEFT"/>index : int<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+}

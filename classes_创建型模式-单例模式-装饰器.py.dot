@@ -1,0 +1,6 @@
+digraph "classes_创建型模式-单例模式-装饰器.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"创建型模式-单例模式-装饰器.A" [color="black", fontcolor="black", label=<{A|identity<br ALIGN="LEFT"/>|eat()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

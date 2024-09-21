@@ -1,0 +1,11 @@
+digraph "classes_行为型模式-迭代器模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-迭代器模式.Aggregate" [color="black", fontcolor="black", label=<{Aggregate|<br ALIGN="LEFT"/>|<I>iterator</I>()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-迭代器模式.ConcreteAggregate" [color="black", fontcolor="black", label=<{ConcreteAggregate|alist<br ALIGN="LEFT"/>|iterator()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-迭代器模式.ConcreteIterator" [color="black", fontcolor="black", label=<{ConcreteIterator|alist<br ALIGN="LEFT"/>|hasNext()<br ALIGN="LEFT"/>next()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-迭代器模式.Iterator" [color="black", fontcolor="black", label=<{Iterator|<br ALIGN="LEFT"/>|<I>hasNext</I>()<br ALIGN="LEFT"/><I>next</I>()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-迭代器模式.ConcreteAggregate" -> "行为型模式-迭代器模式.Aggregate" [arrowhead="empty", arrowtail="none"];
+"行为型模式-迭代器模式.ConcreteIterator" -> "行为型模式-迭代器模式.Iterator" [arrowhead="empty", arrowtail="none"];
+}

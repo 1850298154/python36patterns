@@ -1,0 +1,21 @@
+digraph "classes_行为型模式-过滤器模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-过滤器模式.AndCriteria" [color="black", fontcolor="black", label=<{AndCriteria|criteria<br ALIGN="LEFT"/>criteria_other<br ALIGN="LEFT"/>|meet_criteria(persons): list<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-过滤器模式.Criteria" [color="black", fontcolor="black", label=<{Criteria|<br ALIGN="LEFT"/>|<I>meet_criteria</I>(persons): list<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-过滤器模式.CriteriaFemale" [color="black", fontcolor="black", label=<{CriteriaFemale|<br ALIGN="LEFT"/>|meet_criteria(persons): list<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-过滤器模式.CriteriaMale" [color="black", fontcolor="black", label=<{CriteriaMale|<br ALIGN="LEFT"/>|meet_criteria(persons): list<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-过滤器模式.CriteriaSingle" [color="black", fontcolor="black", label=<{CriteriaSingle|<br ALIGN="LEFT"/>|meet_criteria(persons): list<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-过滤器模式.OrCriteria" [color="black", fontcolor="black", label=<{OrCriteria|criteria<br ALIGN="LEFT"/>criteria_other<br ALIGN="LEFT"/>|meet_criteria(persons): list<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-过滤器模式.Person" [color="black", fontcolor="black", label=<{Person|marital_status<br ALIGN="LEFT"/>name<br ALIGN="LEFT"/>sex<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"行为型模式-过滤器模式.AndCriteria" -> "行为型模式-过滤器模式.Criteria" [arrowhead="empty", arrowtail="none"];
+"行为型模式-过滤器模式.CriteriaFemale" -> "行为型模式-过滤器模式.Criteria" [arrowhead="empty", arrowtail="none"];
+"行为型模式-过滤器模式.CriteriaMale" -> "行为型模式-过滤器模式.Criteria" [arrowhead="empty", arrowtail="none"];
+"行为型模式-过滤器模式.CriteriaSingle" -> "行为型模式-过滤器模式.Criteria" [arrowhead="empty", arrowtail="none"];
+"行为型模式-过滤器模式.OrCriteria" -> "行为型模式-过滤器模式.Criteria" [arrowhead="empty", arrowtail="none"];
+"行为型模式-过滤器模式.Criteria" -> "行为型模式-过滤器模式.AndCriteria" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="criteria", style="solid"];
+"行为型模式-过滤器模式.Criteria" -> "行为型模式-过滤器模式.AndCriteria" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="criteria_other", style="solid"];
+"行为型模式-过滤器模式.Criteria" -> "行为型模式-过滤器模式.OrCriteria" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="criteria", style="solid"];
+"行为型模式-过滤器模式.Criteria" -> "行为型模式-过滤器模式.OrCriteria" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="criteria_other", style="solid"];
+}

@@ -1,0 +1,9 @@
+digraph "classes_结构型模式-适配器模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-适配器模式.Adapter" [color="black", fontcolor="black", label=<{Adapter|<br ALIGN="LEFT"/>|<I>run</I>()<br ALIGN="LEFT"/><I>speak</I>()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-适配器模式.Cat" [color="black", fontcolor="black", label=<{Cat|name<br ALIGN="LEFT"/>|cat_run()<br ALIGN="LEFT"/>miaomiao()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-适配器模式.Dog" [color="black", fontcolor="black", label=<{Dog|name<br ALIGN="LEFT"/>|dog_run()<br ALIGN="LEFT"/>wangwang()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-适配器模式.Sheep" [color="black", fontcolor="black", label=<{Sheep|name<br ALIGN="LEFT"/>|miemie()<br ALIGN="LEFT"/>sheet_run()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

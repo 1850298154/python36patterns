@@ -1,0 +1,8 @@
+digraph "classes_行为型模式-备忘录模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-备忘录模式.Caretaker" [color="black", fontcolor="black", label=<{Caretaker|memento<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"行为型模式-备忘录模式.Memento" [color="black", fontcolor="black", label=<{Memento|state<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"行为型模式-备忘录模式.Originator" [color="black", fontcolor="black", label=<{Originator|state : str<br ALIGN="LEFT"/>|create_memento()<br ALIGN="LEFT"/>set_memento(memento)<br ALIGN="LEFT"/>show()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

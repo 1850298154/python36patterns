@@ -1,0 +1,16 @@
+digraph "classes_创建型模式-建造者模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"创建型模式-建造者模式.AbsBuilder" [color="black", fontcolor="black", label=<{AbsBuilder|building : NoneType<br ALIGN="LEFT"/>|<I>build_floor</I>()<br ALIGN="LEFT"/><I>build_size</I>()<br ALIGN="LEFT"/>new_building()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-建造者模式.Building" [color="black", fontcolor="black", label=<{Building|floor : str, NoneType<br ALIGN="LEFT"/>size : str, NoneType<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"创建型模式-建造者模式.Client" [color="black", fontcolor="black", label=<{Client|<br ALIGN="LEFT"/>|build(build_type)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-建造者模式.Director" [color="black", fontcolor="black", label=<{Director|builder : NoneType<br ALIGN="LEFT"/>|construct_building()<br ALIGN="LEFT"/>get_building()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-建造者模式.FlatBuilder" [color="black", fontcolor="black", label=<{FlatBuilder|<br ALIGN="LEFT"/>|build_floor()<br ALIGN="LEFT"/>build_size()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-建造者模式.HouseBuilder" [color="black", fontcolor="black", label=<{HouseBuilder|<br ALIGN="LEFT"/>|build_floor()<br ALIGN="LEFT"/>build_size()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"创建型模式-建造者模式.FlatBuilder" -> "创建型模式-建造者模式.AbsBuilder" [arrowhead="empty", arrowtail="none"];
+"创建型模式-建造者模式.HouseBuilder" -> "创建型模式-建造者模式.AbsBuilder" [arrowhead="empty", arrowtail="none"];
+"创建型模式-建造者模式.Building" -> "创建型模式-建造者模式.AbsBuilder" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="building", style="solid"];
+"创建型模式-建造者模式.FlatBuilder" -> "创建型模式-建造者模式.Director" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="builder", style="solid"];
+"创建型模式-建造者模式.HouseBuilder" -> "创建型模式-建造者模式.Director" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="builder", style="solid"];
+}

@@ -1,0 +1,7 @@
+digraph "classes_行为型模式-中介者模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-中介者模式.ChatRoom" [color="black", fontcolor="black", label=<{ChatRoom|<br ALIGN="LEFT"/>|show_message(user, msg)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-中介者模式.User" [color="black", fontcolor="black", label=<{User|name<br ALIGN="LEFT"/>|send_msg(msg)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

@@ -1,0 +1,12 @@
+digraph "classes_结构型模式-外观模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-外观模式.A" [color="black", fontcolor="black", label=<{A|<br ALIGN="LEFT"/>|jump()<br ALIGN="LEFT"/>run()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-外观模式.B" [color="black", fontcolor="black", label=<{B|<br ALIGN="LEFT"/>|jump()<br ALIGN="LEFT"/>run()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-外观模式.C" [color="black", fontcolor="black", label=<{C|<br ALIGN="LEFT"/>|jump()<br ALIGN="LEFT"/>run()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-外观模式.Facade" [color="black", fontcolor="black", label=<{Facade|a<br ALIGN="LEFT"/>b<br ALIGN="LEFT"/>c<br ALIGN="LEFT"/>|jump()<br ALIGN="LEFT"/>run()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-外观模式.A" -> "结构型模式-外观模式.Facade" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="a", style="solid"];
+"结构型模式-外观模式.B" -> "结构型模式-外观模式.Facade" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="b", style="solid"];
+"结构型模式-外观模式.C" -> "结构型模式-外观模式.Facade" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="c", style="solid"];
+}

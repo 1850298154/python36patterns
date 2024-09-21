@@ -1,0 +1,12 @@
+digraph "classes_行为型模式-访问者模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-访问者模式.Accounting" [color="black", fontcolor="black", label=<{Accounting|Duty : str<br ALIGN="LEFT"/>id : str<br ALIGN="LEFT"/>|visit(year_data)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-访问者模式.Advisor" [color="black", fontcolor="black", label=<{Advisor|Duty : str<br ALIGN="LEFT"/>id : str<br ALIGN="LEFT"/>|visit(year_data)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-访问者模式.AnalyseData" [color="black", fontcolor="black", label=<{AnalyseData|datalist : list<br ALIGN="LEFT"/>|add_data(year_data)<br ALIGN="LEFT"/>remove_data(year_data)<br ALIGN="LEFT"/>visit()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-访问者模式.Audit" [color="black", fontcolor="black", label=<{Audit|Duty : str<br ALIGN="LEFT"/>id : str<br ALIGN="LEFT"/>|visit(year_data)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-访问者模式.Finance" [color="black", fontcolor="black", label=<{Finance|cost : NoneType<br ALIGN="LEFT"/>history_cost : NoneType<br ALIGN="LEFT"/>history_salesvolume : NoneType<br ALIGN="LEFT"/>salesvolume : NoneType<br ALIGN="LEFT"/>|<I>accept</I>(visitor)<br ALIGN="LEFT"/>set_cost(value)<br ALIGN="LEFT"/>set_history_cost(value)<br ALIGN="LEFT"/>set_history_salesvolume(value)<br ALIGN="LEFT"/>set_salesvolume(value)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-访问者模式.Finance_year" [color="black", fontcolor="black", label=<{Finance_year|analyst : list<br ALIGN="LEFT"/>year<br ALIGN="LEFT"/>|accept()<br ALIGN="LEFT"/>add_analyst(worker)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-访问者模式.Finance_year" -> "行为型模式-访问者模式.Finance" [arrowhead="empty", arrowtail="none"];
+}

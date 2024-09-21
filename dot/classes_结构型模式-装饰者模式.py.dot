@@ -1,0 +1,7 @@
+digraph "classes_结构型模式-装饰者模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-装饰者模式.Foo" [color="black", fontcolor="black", label=<{Foo|<br ALIGN="LEFT"/>|f1()<br ALIGN="LEFT"/>f2()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-装饰者模式.Foo_decorator" [color="black", fontcolor="black", label=<{Foo_decorator|<br ALIGN="LEFT"/>|f1()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

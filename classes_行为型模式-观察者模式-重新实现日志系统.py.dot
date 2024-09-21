@@ -1,0 +1,15 @@
+digraph "classes_行为型模式-观察者模式-重新实现日志系统.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-观察者模式-重新实现日志系统.AbstractHandler" [color="black", fontcolor="black", label=<{AbstractHandler|<br ALIGN="LEFT"/>|<I>emit</I>(record)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-观察者模式-重新实现日志系统.DingdingHandler" [color="black", fontcolor="black", label=<{DingdingHandler|<br ALIGN="LEFT"/>|emit(record)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-观察者模式-重新实现日志系统.FileHandler" [color="black", fontcolor="black", label=<{FileHandler|<br ALIGN="LEFT"/>|emit(record)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-观察者模式-重新实现日志系统.Logger" [color="black", fontcolor="black", label=<{Logger|handlers : list<br ALIGN="LEFT"/>name<br ALIGN="LEFT"/>|add_handler(handler)<br ALIGN="LEFT"/>log(record: str)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-观察者模式-重新实现日志系统.MailHandler" [color="black", fontcolor="black", label=<{MailHandler|<br ALIGN="LEFT"/>|emit(record)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-观察者模式-重新实现日志系统.StreamHandler" [color="black", fontcolor="black", label=<{StreamHandler|<br ALIGN="LEFT"/>|emit(record)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-观察者模式-重新实现日志系统.DingdingHandler" -> "行为型模式-观察者模式-重新实现日志系统.AbstractHandler" [arrowhead="empty", arrowtail="none"];
+"行为型模式-观察者模式-重新实现日志系统.FileHandler" -> "行为型模式-观察者模式-重新实现日志系统.AbstractHandler" [arrowhead="empty", arrowtail="none"];
+"行为型模式-观察者模式-重新实现日志系统.MailHandler" -> "行为型模式-观察者模式-重新实现日志系统.AbstractHandler" [arrowhead="empty", arrowtail="none"];
+"行为型模式-观察者模式-重新实现日志系统.StreamHandler" -> "行为型模式-观察者模式-重新实现日志系统.AbstractHandler" [arrowhead="empty", arrowtail="none"];
+}

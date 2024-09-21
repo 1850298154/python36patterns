@@ -1,0 +1,8 @@
+digraph "classes_行为型模式-模板模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-模板模式.AbstractClass" [color="black", fontcolor="black", label=<{AbstractClass|<br ALIGN="LEFT"/>|<I>operation1</I>()<br ALIGN="LEFT"/><I>operation2</I>()<br ALIGN="LEFT"/>operation3()<br ALIGN="LEFT"/>template_method()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-模板模式.ConcreteClass" [color="black", fontcolor="black", label=<{ConcreteClass|<br ALIGN="LEFT"/>|operation1()<br ALIGN="LEFT"/>operation2()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-模板模式.ConcreteClass" -> "行为型模式-模板模式.AbstractClass" [arrowhead="empty", arrowtail="none"];
+}

@@ -1,0 +1,9 @@
+digraph "classes_结构型模式-桥接模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"结构型模式-桥接模式.A" [color="black", fontcolor="black", label=<{A|<br ALIGN="LEFT"/>|run(name)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-桥接模式.B" [color="black", fontcolor="black", label=<{B|<br ALIGN="LEFT"/>|run(name)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-桥接模式.Bridge" [color="black", fontcolor="black", label=<{Bridge|ager : str<br ALIGN="LEFT"/>classname<br ALIGN="LEFT"/>|bridge_run()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"结构型模式-桥接模式.B" -> "结构型模式-桥接模式.Bridge" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="classname", style="solid"];
+}

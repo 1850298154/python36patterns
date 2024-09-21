@@ -1,0 +1,7 @@
+digraph "classes_创建型模式-享元模式-元类.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"创建型模式-享元模式-元类.A" [color="black", fontcolor="black", label=<{A|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"创建型模式-享元模式-元类.FlyweightMetaClass" [color="black", fontcolor="black", label=<{FlyweightMetaClass|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+}

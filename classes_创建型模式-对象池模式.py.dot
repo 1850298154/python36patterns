@@ -1,0 +1,6 @@
+digraph "classes_创建型模式-对象池模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"创建型模式-对象池模式.QueueObject" [color="black", fontcolor="black", label=<{QueueObject|object : NoneType<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+}

@@ -1,0 +1,11 @@
+digraph "classes_行为型模式-策略模式.py" {
+rankdir=BT
+bgcolor="#7e7e7e"
+charset="utf-8"
+"行为型模式-策略模式.FaultStrategy" [color="black", fontcolor="black", label=<{FaultStrategy|<br ALIGN="LEFT"/>|process()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-策略模式.NormalStrategy" [color="black", fontcolor="black", label=<{NormalStrategy|<br ALIGN="LEFT"/>|process()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-策略模式.Park" [color="black", fontcolor="black", label=<{Park|<br ALIGN="LEFT"/>|geoProcess()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-策略模式.Strategy" [color="black", fontcolor="black", label=<{Strategy|<br ALIGN="LEFT"/>|<I>process</I>()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"行为型模式-策略模式.FaultStrategy" -> "行为型模式-策略模式.Strategy" [arrowhead="empty", arrowtail="none"];
+"行为型模式-策略模式.NormalStrategy" -> "行为型模式-策略模式.Strategy" [arrowhead="empty", arrowtail="none"];
+}
